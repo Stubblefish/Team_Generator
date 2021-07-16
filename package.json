@@ -1,24 +1,21 @@
 {
-  "name": "team_generator",
+  "name": "challenge10hw",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "OOP using node and jest",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Stubblefish/Team_Generator.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Stubblefish/Team_Generator/issues"
-  },
-  "homepage": "https://github.com/Stubblefish/Team_Generator#readme",
   "dependencies": {
-    "inquirer": "^8.1.2",
-    "jest": "^27.0.6",
-    "modules": "^0.4.0"
+    "inquirer": "^7.3.3",
+    "modules": "^0.4.0",
+    "node": "^14.13.1"
+  },
+  "devDependencies": {
+    "jest": "^26.5.3"
   }
 }
